@@ -10,7 +10,7 @@ export const HeroContainer = styled.div`
   margin-left: auto;
   display: flex;
   flex-direction: column;
-  background-color: cadetblue;
+  background-color: #9dbf9e;
 
   @media screen and (max-width: 470px) {
     flex-direction: column;
@@ -30,8 +30,8 @@ export const HeroLeft = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  text-align: left;
+  // align-items: flex-start;
+  // text-align: left;
   flex: 1;
 
   h1 {
@@ -43,21 +43,24 @@ export const HeroLeft = styled.div`
 
   h5 {
     font-size: 1.6rem;
-    color: rgb(119, 119, 121);
+    color: #f6f6f6;
     margin-bottom: 1rem;
-    font-weight: 400;
+    text-align: center;
+    
+    // margin-left : 7rem;
   }
 
   p {
     font-size: 17px;
     color: #f6f6f6;
     opacity: 0.85;
+    text-align: center;
   }
 
-  @media screen and (max-width: 348px) {
-    text-align: center;
-    align-items: center;
+  @media screen and (max-width: 390px) {
+    
     margin-bottom: 2rem;
+    margin-left : 7rem;
   }
 `;
 
@@ -105,10 +108,23 @@ export const ScrollLink = styled.div`
   align-items: center;
   font-size: 1.3rem;
   color: #f6f6f6;
+  margin-bottom: 6rem;
 
-  img {
-    height: 35px;
-    width: 35px;
-    margin-left: 6px;
+  @media screen and (max-width: 860px) {
+    justify-content: center;
+
+
+    img {
+      height: 35px;
+      width: 35px;
+      margin-left: 6px;
+    }
+
+
+    h1 {
+
+      martin-top: 6px;
+    }
   }
+
 `;

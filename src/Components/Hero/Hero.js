@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
 import newPic from '../assets/johnny.jpg'
+import {CgScrollV} from 'react-icons/cg'
+
+
 import {
   HeroContainer,
   HeroWrapper,
@@ -25,23 +28,27 @@ function Hero() {
         <HeroWrapper>
           <HeroLeft>
             <h1 style={{ textAlign:'center'}}> Hi, I'm John Magpantay</h1>
-            <h5>Jr Web Developer</h5>
+          <div className="newPosition"> 
+            <h5> Jr Web Developer </h5>
             <p>
-              I design and Live,Breathe and Code.
+              Aspiring Software engineer. Live, breathe , code and repeat!
             </p>
+
+          </div>
           </HeroLeft>
           <HeroRight>
             <Image
             src={newPic}
               alt="man-svgrepo"
+              style={{ borderRadius: '50%'}}
             />
           </HeroRight>
         </HeroWrapper>
         <ScrollDown to="projects">
           <ScrollLink>
-            Scroll down
+            <h1> Scroll down <CgScrollV/> </h1>
             {/* <img
-              src=""
+              src={CgScrollV}
               alt="scroll-down"
             /> */}
           </ScrollLink>
