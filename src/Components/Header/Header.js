@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-import newPic from '../assets/j2logo.png'
+import newPic from '../assets/J2-logos.jpeg'
 import './Header.css'
 
 const Header = ({ toggle }) => {
@@ -11,7 +11,7 @@ const Header = ({ toggle }) => {
           <img
             src={newPic}
             alt="logo"
-            style={{ width :'250px', height: '250px', objectFit:'contain', marginBottom: '30pt', }}
+            style={{ width :'238px', height: '115px', objectFit:'contain', marginBottom: '15pt', }}
           />
         </Logo>
         <NavMenu>
@@ -19,7 +19,7 @@ const Header = ({ toggle }) => {
             Projects
           </NavLink>
           <NavLink className="menu-item" to="about" smooth={true}>
-            About
+            Skills
           </NavLink>
           <NavLink className="menu-item" to="contact" smooth={true}>
             Contact

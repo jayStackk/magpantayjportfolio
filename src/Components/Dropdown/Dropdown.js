@@ -26,7 +26,7 @@ const CloseIcon = styled(FaTimes)`
   position: absolute;
   right: 2rem;
   top: 2rem;
-  cursor: pointer;
+  // cursor: pointer;
 `;
 export const NavMenu = styled.div`
   display: flex;
@@ -44,9 +44,9 @@ export const NavLink = styled(ScrollLink)`
   cursor: pointer;
   font-size: 1.7rem;
 
-  &:hover {
-    color: rgb(119, 119, 121);
-  }
+  // &:hover {
+  //   color: rgb(119, 119, 121);
+  // }
 `;
 
 export const NavBtn = styled.div`
@@ -89,7 +89,7 @@ function Dropdown({ isOpen, toggle }) {
       <NavBtn onClick={toggle}>
         <a
           className="btn PrimaryBtn"
-          href="https://github.com/gurupawar/"
+          
           target="_blank"
           rel="noopener noreferrer"
         >

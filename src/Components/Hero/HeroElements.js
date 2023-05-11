@@ -94,7 +94,7 @@ export const ScrollDown = styled(LinkScroll)`
   justify-content: flex-start;
   cursor: pointer;
 
-  animation: ${ScrollAnimation} 2s linear 0s infinite;
+  // animation: ${ScrollAnimation} 2s linear 0s infinite;
   @media screen and (max-width: 992px) {
     justify-content: center;
   }

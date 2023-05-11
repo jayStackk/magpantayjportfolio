@@ -27,7 +27,7 @@ function Hero() {
             <h1 style={{ textAlign:'center'}}> Hi, I'm John Magpantay</h1>
             <h5>Jr Web Developer</h5>
             <p>
-              I design and code beautifully simple things, and I love what I do.
+              I design and Live,Breathe and Code.
             </p>
           </HeroLeft>
           <HeroRight>
@@ -40,10 +40,10 @@ function Hero() {
         <ScrollDown to="projects">
           <ScrollLink>
             Scroll down
-            <img
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/scroll-down.svg"
+            {/* <img
+              src=""
               alt="scroll-down"
-            />
+            /> */}
           </ScrollLink>
         </ScrollDown>
       </HeroContainer>
