@@ -14,10 +14,10 @@ function About() {
       <div className="fixMe">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-          <Image
+          {/* <Image
             src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
             alt="man-svgrepo"
-          />
+          /> */}
           <div className="AboutBio">
             Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
             dummy text of the printing and typesetting industry. Lorem Ipsum has
