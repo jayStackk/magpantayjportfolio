@@ -8,6 +8,7 @@ ASSETS: Trying out import assets from Github READ ME, taking picture URL for my 
 ![AdvicePicture](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/a73f1842-9f77-480e-8452-c7c97f1934e4)
 ![WeatherAPPJohnM](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/8253462e-445d-4585-8aca-a970550a4cc0)
 ![ThePathPic](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/c97315c8-9a97-4265-a5df-75a9c967409a)
+![838835](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/45c5d088-7d81-4a6a-a35b-61611b4467a2)
 
 
 In the project directory, you can run:
