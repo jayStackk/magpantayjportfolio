@@ -1,0 +1,29 @@
+.ContactWrapper {
+margin-top: -4rem;
+background-color: rgb(157, 191, 158);
+
+}
+
+.fixMe {
+
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    /* background: #987284; */
+}
+
+.BigCard {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    background:rgb(157, 191, 158);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05); */
+  }

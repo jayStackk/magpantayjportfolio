@@ -7,6 +7,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+
+
 body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -18,9 +21,10 @@ body {
 main {
   /* background: #151418; */
   background-color: beige;
+  /* margin-top: 10rem; */
   /* background-image: url(https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/blob-haikei.svg); */
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:cover;
   width: 100%;
 }
 
@@ -46,7 +50,7 @@ hgroup,
 menu,
 nav,
 section {
-  /* display: block; */
+  display: block;
 }
 
 h1,
@@ -104,14 +108,14 @@ video {
 }
 
 .BigCard {
-  padding-top: 3rem;
+  padding-top: 1rem;
   padding-bottom: 3rem;
   padding-right: 2rem;
   padding-left: 2rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background:rgb(157, 191, 158);
   box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
   /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05); */
