@@ -6,18 +6,18 @@ import {
   Tech,
   TechImg,
   TechName,
+  ContactWrapper,
 } from "./AboutMe";
-import '../About/About.css'
 function About() {
   return (
-    <div className ="ContactWrapper" id="about">
-      <div className="fixMe">
+    <ContactWrapper id="about" style={{backgroundColor : 'rgb(157, 191, 158)'}}>
+      <div className="Container" style={{backgroundColor : 'rgb(157, 191, 158)', top: '25px'}}>
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-          {/* <Image
+          <Image
             src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
             alt="man-svgrepo"
-          /> */}
+          />
           <div className="AboutBio">
             Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
             dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -40,7 +40,7 @@ function About() {
           </Technologies>
         </div>
       </div>
-    </div>
+    </ContactWrapper>
   );
 }
 

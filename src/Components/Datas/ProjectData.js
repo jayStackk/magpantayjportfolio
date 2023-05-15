@@ -13,7 +13,7 @@ export const ProjectList = [
       demo_url: "https://magpantayjadvicegntr.azurewebsites.net",
     },
     {
-      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/45c5d088-7d81-4a6a-a35b-61611b4467a2",
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/8253462e-445d-4585-8aca-a970550a4cc0",
       title: "WeatherForecast App",
       description:
         "WeatherForeCastapp built in react",
@@ -35,5 +35,39 @@ export const ProjectList = [
 
   // Now for my Skills, Languages and frameworks ive learned so far. Going to showcase it under my projects section
 
- 
+  export const stackList = [
+    {
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/f280f3c0-152b-4eca-9a9a-7395c18af9c1",
+      name: "HTML",
+    },
+    {
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/c4d1c569-de4c-475a-9405-3d3378455b11",
+      name: "CSS",
+    },
+    {
+      img: "https://www.flaticon.com/free-icon/js_5968292?term=js&page=1&position=2&origin=search&related_id=5968292",
+      name: "JavaScript",
+    },
+    {
+      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
+      name: "ReactJS",
+    },
+    {
+      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/bootstrap.svg",
+      name: "Bootstrap",
+    },
+    {
+      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/sass.svg",
+      name: "Scss",
+    },
+    {
+      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
+      name: "Git",
+    },
+    {
+      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
+      name: "Responsive",
+    },
+
+  ]
   

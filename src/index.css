@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
 *,
 *::before,
 *::after {
@@ -7,24 +7,19 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
-
-
 body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #fafaff;
   font-weight: 400;
-} 
+}
 
 main {
-  /* background: #151418; */
-  background-color: beige;
-  /* margin-top: 10rem; */
-  /* background-image: url(https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/blob-haikei.svg); */
+  background: #151418;
+  background-image: url(https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/blob-haikei.svg);
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   width: 100%;
 }
 
@@ -61,7 +56,6 @@ h5,
 h6 {
   font-size: 100%;
   font-weight: normal;
-  
 }
 
 img,
@@ -70,7 +64,7 @@ video {
   max-width: 100%;
 }
 
-/* .btn {
+.btn {
   border: 2px solid rgb(57, 134, 250);
   padding: 10px 1rem;
   border-radius: 5px;
@@ -78,11 +72,11 @@ video {
   transition: all 0.2s ease-in-out;
   font-weight: 400;
   outline: none;
-} */
+}
 
 .PrimaryBtn {
-  /* background: rgb(57, 134, 250); */
-  color: #010606;
+  background: rgb(57, 134, 250);
+  color: #f6f6f6;
 }
 
 .PrimaryBtn:hover {
@@ -108,14 +102,15 @@ video {
 }
 
 .BigCard {
-  padding-top: 1rem;
+  
+  padding-top: 3rem;
   padding-bottom: 3rem;
   padding-right: 2rem;
   padding-left: 2rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  background:rgb(157, 191, 158);
+  
   box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
   /* box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05); */
@@ -137,30 +132,26 @@ video {
 
 .SectionTitle {
   font-size: 28px;
-  border: 5px solid;
-  /* position: absolute; */
-  top: 50%;
-  left: 50%;
-  /* margin-top: 6rem; */
-  /* transform: translate(-50%, -50%); */
-  padding: 10px;
+  color: #151418;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  border: 8px solid green ;
   text-align: center;
-  border-radius: 10rem;
+  border-radius: 5px;
 }
 .ProjectWrapper {
-  /* margin-top: rem; */
-  background-color: #d0d6b5;
+  margin-top: -5rem;
+  background-color: beige;
 }
 
 /* ------------------------------------ Media for Container */
-@media screen and (max-width: px) {
+@media (min-width: 425px) {
   .Container {
     max-width: 540px;
   }
-  .SectionTitle {
-    margin-bottom: 1rem;
-
-
+  .SectionTitle{
+    margin-top: -4rem;
+    background-color: beige;
   }
 }
 @media (min-width: 768px) {
@@ -168,26 +159,23 @@ video {
     max-width: 720px;
   }
   .ProjectWrapper {
-    margin-top: -5rem;
+    margin-top: -4rem;
   }
-
-  .SectionTitle {
-      margin-bottom: 1rem;
+  .SectionTitle{
+    margin-top: -4rem;
+    background-color: beige;
   }
 }
 @media (min-width: 992px) {
   .Container {
     max-width: 960px;
   }
-  .SectionTitle {
-    margin-bottom: 1rem;
-}
+  .SectionTitle{
+    margin-top: -4rem;
+  }
 }
 @media (min-width: 1200px) {
   .Container {
-    max-width: 1000px;
+    max-width: 912px;
   }
-  .SectionTitle {
-    margin-bottom: 1rem;
-}
 }
