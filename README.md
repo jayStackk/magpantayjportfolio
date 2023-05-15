@@ -6,9 +6,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 ASSETS: Trying out import assets from Github READ ME, taking picture URL for my project DATAS
 ![AdvicePicture](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/a73f1842-9f77-480e-8452-c7c97f1934e4)
+![919827](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/f280f3c0-152b-4eca-9a9a-7395c18af9c1)
+
 ![WeatherAPPJohnM](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/8253462e-445d-4585-8aca-a970550a4cc0)
 ![ThePathPic](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/c97315c8-9a97-4265-a5df-75a9c967409a)
 ![838835](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/45c5d088-7d81-4a6a-a35b-61611b4467a2)
+![css](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/c4d1c569-de4c-475a-9405-3d3378455b11)
+
 
 
 In the project directory, you can run:
