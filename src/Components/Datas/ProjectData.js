@@ -45,28 +45,28 @@ export const ProjectList = [
       name: "CSS",
     },
     {
-      img: "https://www.flaticon.com/free-icon/js_5968292?term=js&page=1&position=2&origin=search&related_id=5968292",
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/0138ba06-8eb5-4799-b332-c244bf6f334b",
       name: "JavaScript",
     },
     {
-      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/react.svg",
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/06c815bb-3020-4803-a3be-50b75eb7cb66",
       name: "ReactJS",
     },
     {
-      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/bootstrap.svg",
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/add7ef0d-55dd-404a-a742-cdf804dcfa56",
       name: "Bootstrap",
     },
     {
-      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/sass.svg",
-      name: "Scss",
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/190a3224-141b-4744-88f3-5de8bfd32635",
+      name: "C-sharp",
     },
     {
-      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/git.svg",
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/bd8a48b5-9dbb-474a-b2c1-10b4948501c6",
       name: "Git",
     },
     {
-      img: "https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/skill/responsive.svg",
-      name: "Responsive",
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/f2afb275-e9fb-4225-8ca4-2616eb4f44bd",
+      name: "Azure",
     },
 
   ]

@@ -3,21 +3,12 @@ import React from "react";
 import { ContactWrapper, Email } from "./ContactCSS";
 function Contact() {
   return (
-    <ContactWrapper id="contact">
+    <ContactWrapper id="contact" style={{ backgroundColor: "beige"}}>
       <div className="Container">
         <div className="SectionTitle">Get In Touch</div>
-        <div className="BigCard">
-          <Email>
-            <span>your_email@gmail.com</span>
-            <a
-              className="btn PrimaryBtn"
-              href="mailto:your_email@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Send Mail
-            </a>
-          </Email>
+        <div className="BigCard" style={{ textAlign:'center'}}>
+        <span> magpantayjohn20@gmail.com</span><br></br>
+        <span> 209-625-6385</span>
         </div>
         {/* <SocialIcon /> */}
       </div>
