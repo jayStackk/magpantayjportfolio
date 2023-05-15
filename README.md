@@ -7,6 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ASSETS: Trying out import assets from Github READ ME, taking picture URL for my project DATAS
 ![AdvicePicture](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/a73f1842-9f77-480e-8452-c7c97f1934e4)
 ![919827](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/f280f3c0-152b-4eca-9a9a-7395c18af9c1)
+![tasktrackerr](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/53f92ca8-647b-4e4a-97dd-88dcfb072ce8)
+
 ![Csharp](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/190a3224-141b-4744-88f3-5de8bfd32635)
 ![azure](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/f2afb275-e9fb-4225-8ca4-2616eb4f44bd)
 
