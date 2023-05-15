@@ -1,7 +1,7 @@
 import React from "react";
 import { stackList } from "../Datas/ProjectData";
 import {
-  Image,
+  
   Technologies,
   Tech,
   TechImg,
@@ -16,16 +16,10 @@ function About() {
         <div className="BigCard">
         
           <div className="AboutBio">
-            Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged.
+          Hi i'm John Magpantay,I am passionate about software development, I find great joy in creating innovative and user-friendly applications that solve real-world problems. The process of turning ideas into fully functional software excites me, and I thrive on the challenges and complexities that come with it. 
           </div>
           <div className="AboutBio tagline2">
-            I have become confident using the following technologies.
+           Skills
           </div>
           <Technologies>
             {stackList.map((stack, index) => (

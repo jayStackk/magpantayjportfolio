@@ -10,13 +10,16 @@ import MyContact from './Components/Contacts/Contact'
 
 function App() {
   return (
-   <>
+   <div>
    
    <Hero />
    <NewProj/>
    <Abouthero />
    <MyContact />
-   </>
+   
+   </div>
+   
+   
   );
 }
 

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
-  margin-top: 4rem;
+  margin-top: 1rem;
   background: dark-green;
   
 

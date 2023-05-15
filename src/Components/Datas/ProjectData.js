@@ -7,7 +7,7 @@ export const ProjectList = [
     {
       img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/a73f1842-9f77-480e-8452-c7c97f1934e4",
       title: "Advice Generator",
-      description: "WeatherForecast App, Built in react",
+      description: "Advice Generator, Random quotes appear each time the button is pressed",
       tech_stack: "Html, Css, Javascript, Built in React",
       github_url: "",
       demo_url: "https://magpantayjadvicegntr.azurewebsites.net",
@@ -16,18 +16,26 @@ export const ProjectList = [
       img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/8253462e-445d-4585-8aca-a970550a4cc0",
       title: "WeatherForecast App",
       description:
-        "WeatherForeCastapp built in react",
+        "WeatherForecast App, Built in react, User would be able to search a location, and the app would display the weather as well as the time",
       tech_stack: "Html, Css, Javascript",
       github_url: "",
-      demo_url: "",
+      demo_url: "https://magpantayjweatherforecast.azurewebsites.net",
     },
     {
       img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/c97315c8-9a97-4265-a5df-75a9c967409a",
       title: "The Path (FullStack)",
-      description: "Built in react, collaborating with two other students.",
+      description: "Built in react, collaborating with two other students for a big project. Client asked for a App where people in the community could gather in events and more. ",
       tech_stack: "Reactjs, Css",
       github_url: "",
       demo_url: "https://your_project_demo_link/",
+    },
+    {
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/53f92ca8-647b-4e4a-97dd-88dcfb072ce8",
+      title: "TaskTracker App",
+      description: "Built in react for a sprint, Client asked for a Tasktrack app where user would be able to monitor their tasks, primarily worked on BackEnd  ",
+      tech_stack: "Reactjs, Css",
+      github_url: "",
+      demo_url: "https://tasktrackersprint.azurewebsites.net/",
     },
  
   ];
@@ -67,6 +75,26 @@ export const ProjectList = [
     {
       img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/f2afb275-e9fb-4225-8ca4-2616eb4f44bd",
       name: "Azure",
+    },
+    {
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/0fbe60da-b8b7-4b2f-b5a9-45c182e7b58a",
+      name: "VsCode",
+    },
+    {
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/86db5835-ec63-494a-a675-e9d1d4d4bc62",
+      name: "Postman",
+    },
+    {
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/714ad396-e346-4893-8da2-18b0c4c39436",
+      name: "Jira",
+    },
+    {
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/89e68429-0d30-4c3b-a98d-262e46ed4904",
+      name: "Tailwind",
+    },
+    {
+      img: "https://github.com/jayStackk/magpantayjportfolio/assets/116022052/9307e29b-bac6-4b29-88f3-c3dc8c133bb8",
+      name: "Figma",
     },
 
   ]

@@ -1,6 +1,6 @@
 import React from "react";
-// import SocialIcon from "../SocialIcon/SocialIcon";
-import { ContactWrapper, Email } from "./ContactCSS";
+// import SocialIcon from "../Socials/Social";
+import { ContactWrapper } from "./ContactCSS";
 function Contact() {
   return (
     <ContactWrapper id="contact" style={{ backgroundColor: "beige"}}>
@@ -9,8 +9,24 @@ function Contact() {
         <div className="BigCard" style={{ textAlign:'center'}}>
         <span> magpantayjohn20@gmail.com</span><br></br>
         <span> 209-625-6385</span>
+        <a
+            className="btn PrimaryBtn"
+            href="https://www.linkedin.com/in/john-magpantay-0a2953271/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          <a
+            className="btn PrimaryBtn"
+            href="https://github.com/jayStackk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>
         </div>
-        {/* <SocialIcon /> */}
+        
       </div>
     </ContactWrapper>
   );

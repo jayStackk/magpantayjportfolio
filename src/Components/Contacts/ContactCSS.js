@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const ContactWrapper = styled.div`
   margin: 5rem 0;
+  margin-top: 17px
+
+  
 `;
 
 export const Email = styled.div`

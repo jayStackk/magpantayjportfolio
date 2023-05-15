@@ -1,9 +1,15 @@
 import React from "react";
 import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
-import newPic from '../assets/J2-logos.jpeg'
+import newPic from '../assets/newLogo.png'
 import './Header.css'
 
+
+
 const Header = ({ toggle }) => {
+
+  
+
+
   return (
     <div className="Container">
       <Nav>
@@ -11,10 +17,10 @@ const Header = ({ toggle }) => {
           <img
             src={newPic}
             alt="logo"
-            style={{ width :'238px', height: '115px', objectFit:'contain', marginBottom: '15pt', }}
+            style={{ width :'238px', height: '115px', objectFit:'contain', marginBottom: '15pt',}}
           />
         </Logo>
-        <NavMenu>
+        <NavMenu style={{ color: 'White'}}>
           <NavLink className="menu-item" to="projects" smooth={true}>
             Projects
           </NavLink>
@@ -24,13 +30,17 @@ const Header = ({ toggle }) => {
           <NavLink className="menu-item" to="contact" smooth={true}>
             Contact
           </NavLink>
-          <NavLink className="menu-item" to="contact" smooth={true}>
-           <a
-           href=""
-
-           >  Resume  </a> 
-          </NavLink>
         </NavMenu>
+        <NavBtn>
+          <a
+            className="btn PrimaryBtn"
+            href="https://azure-lezlie-77.tiiny.site"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </NavBtn>
     
         
         <Bars onClick={toggle} />
