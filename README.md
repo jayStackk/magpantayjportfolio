@@ -19,11 +19,21 @@ ASSETS: Trying out import assets from Github READ ME, taking picture URL for my 
 ![css](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/c4d1c569-de4c-475a-9405-3d3378455b11)
 ![download (3)](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/0138ba06-8eb5-4799-b332-c244bf6f334b)
 ![download (4)](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/06c815bb-3020-4803-a3be-50b75eb7cb66)
+![Visual_Studio_Code_1 35_icon svg](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/0fbe60da-b8b7-4b2f-b5a9-45c182e7b58a)
+![postman-icon](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/86db5835-ec63-494a-a675-e9d1d4d4bc62)
+
 
 
 ![bootstrap](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/add7ef0d-55dd-404a-a742-cdf804dcfa56)
+![jiraa](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/714ad396-e346-4893-8da2-18b0c4c39436)
+![Tailwind_CSS_Logo svg](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/89e68429-0d30-4c3b-a98d-262e46ed4904)
+![figmaa](https://github.com/jayStackk/magpantayjportfolio/assets/116022052/9307e29b-bac6-4b29-88f3-c3dc8c133bb8)
+
 
 In the project directory, you can run:
+
+
+
 
 
 ### `npm start`
