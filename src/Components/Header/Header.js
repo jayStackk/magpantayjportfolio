@@ -11,7 +11,7 @@ const Header = ({ toggle }) => {
 
 
   return (
-    <div className="Container">
+    <div className="newContainer" style={{}}>
       <Nav>
         <Logo to="/">
           <img
@@ -20,7 +20,7 @@ const Header = ({ toggle }) => {
             style={{ width :'238px', height: '115px', objectFit:'contain', marginBottom: '15pt',}}
           />
         </Logo>
-        <NavMenu style={{ color: 'White'}}>
+        <NavMenu style={{ color: 'White', justifyContent:'center',}}>
           <NavLink className="menu-item" to="projects" smooth={true}>
             Projects
           </NavLink>

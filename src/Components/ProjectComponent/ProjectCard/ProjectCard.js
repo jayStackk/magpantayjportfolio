@@ -14,13 +14,13 @@ function ProjectCard() {
       {ProjectList.map((list, index) => (
         <Card key={index}>
           <CardLeft>
-          <img src={list.img} alt={list.name} />
+            <img src={list.img} alt={list.name} />
           </CardLeft>
           <CardRight>
             <h4>{list.title}</h4>
             <p>{list.description}</p>
             <Stack>
-              <span className="stackTitle">Languages -</span>
+              <span className="stackTitle">Languages/frameworks -</span>
               <span className="tags">{list.tech_stack}</span>
             </Stack>
             <BtnGroup>

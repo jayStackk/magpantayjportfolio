@@ -8,8 +8,15 @@ export const Nav = styled.nav`
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  z-index: 10;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #000000;
+  
+  
 `;
 
 export const NavLink = styled(ScrollLink)`
